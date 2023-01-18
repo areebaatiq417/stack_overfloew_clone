@@ -1,0 +1,125 @@
+ 
+.question_details_page{
+    width: calc( 100% - 300px - 24px);
+    float: left;
+    margin: 25px 0px;
+    padding: 0px;
+}
+
+.question_details_container{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.112);
+}
+.question_details_container-2{
+    display: flex;
+}
+.question_votes{
+    padding: 5px 20px 5px 10px;
+}
+.question_votes p{
+    margin: 0%;
+    font-size: 13px;
+    text-align: flex;
+}
+ .votes_icon{
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(206, 203, 203);
+}
+.votes_icon:active{
+    color: #ef8236;
+}
+.question_details_container .question_body{
+    line-height: 22px;
+    white-space: pre-line;
+}
+
+.question_details_container .question_details_tags{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.question_details_container .question_details_tags p,
+.post_ans_container p .ans_tags{
+    padding: 5px 5px;
+    margin: 3px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #e1ecf4;
+    color: #39739d;
+    text-decoration: none;
+    line-height: 22px;
+}
+.question_actions_user{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question_actions_user button, .edit_question_btn{
+    background-color: transparent;
+    border: none;
+    padding: 5px 0px;
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    color: #939292;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.question_actions_user button:active{
+    border-bottom: solid 2px black;
+}
+.question_actions_user div:nth-child(2) p, 
+.question_actions_user div:nth-child(2) .user_link{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0%;
+}
+.user_link{
+    display: flex;
+    align-items: center;
+}
+.user_link div{
+    padding-left: 10px;
+} */
+/* post answer container */
+
+ .post_ans_container form textarea{
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif;
+    width: calc(100% - 20px);
+    resize: vertical;
+}
+
+.post_ans_container form .post_ans_btn{
+    margin: 20px 0px;
+    padding: 10px 10px;
+    background-color: #009dff;
+    color: white;
+    border: solid 1px #009dff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.post_ans_container form .post_ans_btn:hover{
+    background-color: #0086d8;
+}
+
+
+
+.display_ans{
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.112);
+}
+
+.display_ans p{
+    font-size: 14px;
+    line-height: 18px;
+    white-space: pre-line;
+}  
